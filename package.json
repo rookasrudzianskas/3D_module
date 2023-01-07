@@ -1,0 +1,38 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@types/three": "0.139.0",
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "9.1.4",
+    "@react-three/fiber": "8.0.10",
+    "lodash-es": "4.17.21",
+    "react-scripts": "5.0.0",
+    "styled-components": "5.3.5",
+    "three": "0.139.2",
+    "valtio": "1.5.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
